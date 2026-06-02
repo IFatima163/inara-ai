@@ -4,7 +4,7 @@ import AnimatedSection from './AnimatedSection';
 
 const tiers = [
   {
-    name: 'Starter Ops',
+    name: 'Minimum',
     tier: 'Tier 1',
     setup: '$1,500',
     monthly: '$500',
@@ -20,7 +20,7 @@ const tiers = [
     ],
   },
   {
-    name: 'Growth Ops',
+    name: 'Growth',
     tier: 'Tier 2',
     setup: '$4,000',
     monthly: '$1,200',
@@ -28,7 +28,7 @@ const tiers = [
     promise: 'Founder stops micromanaging. Team stops asking repetitive questions. Business finally feels under control.',
     results: '20–40 hrs saved/month. Reduces need to hire 1 admin role.',
     items: [
-      'Everything in Starter Ops',
+      'Everything in Minimum',
       'AI lead qualification and routing',
       'Internal AI assistant (SOP + knowledge base)',
       'Multi-channel automation (CRM, email, WhatsApp)',
@@ -37,7 +37,7 @@ const tiers = [
     ],
   },
   {
-    name: 'Full Ops Leverage',
+    name: 'Autopilot',
     tier: 'Tier 3',
     setup: '$7,500',
     monthly: '$2,000',
@@ -45,7 +45,7 @@ const tiers = [
     promise: 'Business runs even if the founder steps away. Fewer staff needed. Predictable, scalable operations.',
     results: '40–60 hrs saved/month. Avoids 1–2 hires. Long-term operations leverage.',
     items: [
-      'Everything in Growth Ops',
+      'Everything in Growth',
       'Fully customized internal AI ops system',
       'Admin and reporting automation',
       'Financial ops dashboard',
