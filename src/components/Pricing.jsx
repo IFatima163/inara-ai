@@ -139,7 +139,7 @@ export default function Pricing() {
                     background: tier.highlight ? 'rgba(59,130,246,0.15)' : 'var(--surface-2)',
                     border: '1px solid var(--blue-dim)', marginTop: 'auto' }}>
                     <p style={{ fontSize: 11, fontWeight: 700, letterSpacing: '0.08em', textTransform: 'uppercase',
-                      color: 'var(--blue)', marginBottom: 6 }}>Projected Results</p>
+                      color: 'var(--blue)', marginBottom: 6 }}>Documented Results</p>
                     <p style={{ fontSize: 12, color: 'var(--text)', lineHeight: 1.6 }}>{tier.results}</p>
                   </div>
 
